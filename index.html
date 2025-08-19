@@ -143,24 +143,48 @@
                 <!-- PASSO 1 -->
                 <fieldset class="passo-compra passo-1">
                     <legend>Passo 1: Escolha o tamanho do perfume</legend>
-
-                    <div class="opcoes-tamanho">
-                        <label>
-                            <input type="radio" id="tamanho-50ml" name="tamanho" value="50" data-preco="299.90" checked>
-                            <span><strong>50ml - R$ 299,90</strong> — Tamanho ideal para experimentar</span>
-                        </label>
-
-                        <label class="popular">
-                            <input type="radio" id="tamanho-75ml" name="tamanho" value="75" data-preco="399.90">
-                            <span><strong>75ml - R$ 399,90</strong> — 🔥 MAIS POPULAR</span>
-                        </label>
-
-                        <label class="melhor-valor">
-                            <input type="radio" id="tamanho-100ml" name="tamanho" value="100" data-preco="499.90">
-                            <span><strong>100ml - R$ 499,90</strong> — 💰 MELHOR VALOR</span>
-                        </label>
-                    </div>
-                </fieldset>
+                    
+                        <section class="opcoes-tamanho">
+                            <h3>Escolha o tamanho do perfume</h3>
+                           
+                            <label for="tamanho-50ml" class="opcao-tamanho">
+                                <input type="radio" id="tamanho-50ml" name="tamanho" value="50" data-preco="299.90" checked>
+                                <figure>
+                                    <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=80&h=100&fit=crop&crop=center&q=90"
+                                        alt="Perfume Sifurrah Essência de Suvacu, frasco 50ml" class="mini-frasco">
+                                    <figcaption>
+                                        <strong>50ml – R$ 299,90</strong><br>
+                                        <span class="descricao-opcao">Tamanho ideal para experimentar</span>
+                                    </figcaption>
+                                </figure>
+                            </label>
+                    
+                            <label for="tamanho-75ml" class="opcao-tamanho popular">
+                                <input type="radio" id="tamanho-75ml" name="tamanho" value="75" data-preco="399.90">
+                                <figure>
+                                    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=80&h=100&fit=crop&crop=center&q=90"
+                                        alt="Perfume Sifurrah Essência de Suvacu, frasco 75ml" class="mini-frasco">
+                                    <figcaption>
+                                        <strong>75ml – R$ 399,90</strong><br>
+                                        <span class="descricao-opcao"><span>🔥</span> MAIS POPULAR – Melhor custo-benefício</span>
+                                    </figcaption>
+                                </figure>
+                            </label>
+                    
+                            <label for="tamanho-100ml" class="opcao-tamanho melhor-valor">
+                                <input type="radio" id="tamanho-100ml" name="tamanho" value="100" data-preco="499.90">
+                                <figure>
+                                    <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=80&h=100&fit=crop&crop=center&q=90"
+                                        alt="Perfume Sifurrah Essência de Suvacu, frasco 100ml" class="mini-frasco">
+                                    <figcaption>
+                                        <strong>100ml – R$ 499,90</strong><br>
+                                        <span class="descricao-opcao"><span>💰</span> MELHOR VALOR – Maior economia</span>
+                                    </figcaption>
+                                </figure>
+                            </label>
+                        </section>
+                    </section>
+                    
 
                 <!-- PASSO 2 -->
                 <fieldset class="passo-compra passo-2">
